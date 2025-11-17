@@ -1,0 +1,102 @@
+# -------------------------
+# Flutter / Dart
+# -------------------------
+/build/
+/.dart_tool/
+.pub-cache/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Flutter ios/macOS/Windows artifacts
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Pods/
+**/ios/Runner.xcworkspace/
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/macos/Flutter/Flutter.framework
+
+# Xcode
+/ios/Flutter/Flutter.xcframework/
+/ios/Runner/Debug.xcconfig
+/ios/Runner/Release.xcconfig
+*.xcuserstate
+*.xcworkspace
+xcshareddata/
+
+# Android
+/android/.gradle/
+/android/app/**/build/
+/android/local.properties
+/android/.cxx/
+*.keystore
+
+# Windows
+/windows/flutter/ephemeral/
+/windows/Flutter/ephemeral/
+
+# Linux
+/linux/flutter/ephemeral/
+
+# Web
+/.dart_tool/experimental/
+
+# -------------------------
+# Python / Jupyter
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+.eggs/
+*.egg
+*.manifest
+*.spec
+
+# Jupyter
+.ipynb_checkpoints/
+jupyter_notebook_config.json
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+.env.*
+pip-log.txt
+pip-delete-this-directory.txt
+
+# -------------------------
+# IDEs and editors
+# -------------------------
+.idea/
+*.iml
+.vscode/
+*.code-workspace
+
+# -------------------------
+# OS files
+# -------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -------------------------
+# Logs / Coverage
+# -------------------------
+*.log
+/coverage/
+
+# -------------------------
+# Miscellaneous
+# -------------------------
+*.class
+*.swp
+*.lock
+._*
+out/
+*.patch
